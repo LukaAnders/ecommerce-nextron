@@ -11,8 +11,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 12px 20px;
-    height: 95px; 
+    padding: 0.626rem 1.25rem;
+    height: 70px; 
     overflow: visible;
 }
 
@@ -28,6 +28,7 @@
 .nav-center a,
 .nav-rigth a {
     font-size: 1.25rem;
+    color: #333333;
 }
 .nav-center a:hover,
 .nav-rigth a:hover {
