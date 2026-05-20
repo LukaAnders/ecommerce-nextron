@@ -5,6 +5,7 @@
     height: 500px;
     position: relative;
     margin-top: 90px;
+    border-radius: 15px;
 }
 .hero-overlay{
     width: 100%;
@@ -61,7 +62,11 @@
 
     .hero-content {
         max-width: 330px;
-        margin: 0;
+        margin: 0 auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .btn{

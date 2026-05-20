@@ -1,6 +1,9 @@
 /* Header styles */
 .header {
-    background-color: #ffffff;
+	background: rgba(10,10,15,0.7);
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+	border-bottom: 2px solid #7c3aed80;
     position: fixed;
     top: 60px;
     left: 50%;
@@ -25,16 +28,17 @@
     gap: 2.5rem;
 }
 
-.nav-center a,
-.nav-rigth a {
-    font-size: 1.25rem;
-    color: #333333;
+.nav-center a{
+	font-size: 1.25rem;
+	color: #fff;
+	text-shadow: 0 1px 8px #7c3aed40;
+	transition: color 0.2s;
 }
-.nav-center a:hover,
-.nav-rigth a:hover {
-    color: #7c3aed;
-    
+
+.nav-center a:hover{
+	color: #7c3aed;
 }
+
 .nav-right ul{
     display: flex;
     gap: 1.5rem;
@@ -97,7 +101,7 @@
 		width: 200px;
 		flex-direction: column;
 		padding: 80px 20px 20px;
-		background-color: #ffffff;
+		background-color: #333333;
 		gap: 2rem;
 		transition: right 0.3s ease;
 		align-items: flex-start;
