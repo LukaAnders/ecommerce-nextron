@@ -3,7 +3,7 @@
 	background: rgba(10,10,15,0.7);
 	backdrop-filter: blur(10px);
 	-webkit-backdrop-filter: blur(10px);
-	border-bottom: 2px solid #7c3aed80;
+	border-bottom: 2px solid #00B4FF;
     position: fixed;
     top: 60px;
     left: 50%;
@@ -36,7 +36,7 @@
 }
 
 .nav-center a:hover{
-	color: #7c3aed;
+	color: #009DFF;
 }
 
 .nav-right ul{
